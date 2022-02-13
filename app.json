@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ForUs",
+    "slug": "ForUs",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/ficon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ForUs.apk"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#DAC971"
+      },
+      "package": "ForUs.apk"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
